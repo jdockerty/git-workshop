@@ -68,6 +68,6 @@ Now, you might be curious as to how we can get the changes from the `feature/my-
 
     git checkout master
     git merge feature/my-new-idea
-`
+
 Here we are switching to `master`, the branch we want our changes to be placed into, and then merging the commit we made in `feature/my-new-idea` into `master`. Once you have done this, you have completed in an incredibly common workflow that you would be engaged in when working on your own projects with Git. In an enterprise environment, you may be introduced to a *code review* process, which is a step prior to a merge into a specific branch, which ensures the changes that are being merged in are to a satisfactory standard.
 
